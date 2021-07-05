@@ -1,14 +1,14 @@
 import React from 'react'
-import { Button } from 'react-scroll'
+import Image from '../../images/interior-venue.jpeg'
 
-import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img } from './InfoElements'
 
-const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt, img }) => {
+const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, description }) => {
     return (
         <>
             <InfoContainer lightBg={ lightBg } id={ id }  >
                 <InfoWrapper>
-                    <InfoRow imgStart={ imgStart }>
+                    <InfoRow>
                         <Column1>
                             <TextWrapper>
                                 <TopLine>
@@ -20,15 +20,11 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dark
                                 <Subtitle darkText={ darkText }>
                                     { description }
                                 </Subtitle>
-                                <BtnWrap>
-                                    <Button to='home'>{ buttonLabel }</Button>
-                                    
-                                </BtnWrap>
                             </TextWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={ img } alt={ alt }/>
+                                <Img src={ Image }/>
                             </ImgWrap>
                         </Column2>
                     </InfoRow>

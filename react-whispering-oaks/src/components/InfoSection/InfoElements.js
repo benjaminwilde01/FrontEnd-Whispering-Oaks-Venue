@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Image from '../../images/interior-venue.jpeg'
 
 export const InfoContainer = styled.div`
     color: #000;
@@ -66,7 +67,8 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#f7f8a' : '010606')};
+    /* color: ${({ lightText }) => (lightText ? '#f7f8a' : '010606')}; */
+    color: black;
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
@@ -78,12 +80,8 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
-`
-
-export const BtnWrap = styled.div`
-    display: flex;
-    justify-content: flex-start;
+    /* color: ${({ darkText }) => (darkText ? '#010606' : '#fff')}; */
+    color: black;
 `
 
 export const ImgWrap = styled.div`
@@ -92,6 +90,7 @@ export const ImgWrap = styled.div`
 `
 
 export const Img = styled.img`
+    
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
