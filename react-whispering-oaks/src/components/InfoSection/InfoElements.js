@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Image from '../../images/interior-venue.jpeg'
+
 
 export const InfoContainer = styled.div`
     color: #000;
