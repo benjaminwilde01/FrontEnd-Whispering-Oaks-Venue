@@ -7,7 +7,7 @@ import image3 from '../images/image3.jpeg'
 
 const CarouselContainer = () => {
     return (
-        <Carousel>
+        <Carousel id="gallery">
             <Carousel.Item>
                 <img
                 className="d-block w-100"
