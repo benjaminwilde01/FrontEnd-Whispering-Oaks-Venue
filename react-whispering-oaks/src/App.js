@@ -6,6 +6,8 @@ import Contact from './pages/contact'
 
 
 export default class App extends Component {
+
+
   render() {
     return (
       <Router>
