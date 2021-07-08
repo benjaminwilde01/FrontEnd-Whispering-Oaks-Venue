@@ -7,6 +7,7 @@ import { homeObjOne } from '../components/InfoSection/Data'
 import CarouselContainer from '../components/CarouselContainer'
 import Footer from '../components/footer'
 
+
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
 

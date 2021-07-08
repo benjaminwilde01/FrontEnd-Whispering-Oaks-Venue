@@ -1,21 +1,32 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
+import './footer.css'
+
 
 const Footer = () => {
     return (
-        <Card className="p-3">
-            <blockquote className="blockquote mb-0 card-body">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                erat a ante.
-            </p>
-            <footer className="blockquote-footer">
-                <small className="text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-                </small>
-            </footer>
-            </blockquote>
-        </Card>
+      
+        <div className="main-footer">
+            <div className="container">
+                <div className="row">
+                   
+                    <div className="col">
+                        <h4>Whispering Oaks Vineyard</h4>
+                        <ul className="list-unstyled">
+                            <li>512-423-1809</li>
+                            <li>21259 Barrow Road</li>
+                            <li>Redding, CA</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <hr/>
+                <div className="roq">
+                    <p className="col-sm">
+                        &copy;{new Date().getFullYear()} WHISPERING OAKS INC | All Rights Reserved | Terms Of Service | Privacy
+                    </p>
+                </div>
+            </div>
+        </div>
     )
 }
 

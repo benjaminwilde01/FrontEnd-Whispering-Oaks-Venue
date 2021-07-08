@@ -1,0 +1,16 @@
+.main-footer {
+  color: white;
+  background-color: black;
+  padding-top: 3em;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
