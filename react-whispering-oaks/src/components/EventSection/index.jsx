@@ -1,12 +1,12 @@
 import React from 'react'
-import Image from '../../images/interior-venue.jpeg'
+import Image from '../../images/image1.jpeg'
 
-import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img } from './InfoElements'
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img, EventBtn, EventBtnLink } from './EventElements'
 
-const InfoSection = ({ id, topLine, headline, description }) => {
+const EventSection = ({ topLine, headline, description, id }) => {
     return (
         <>
-            <InfoContainer  id={ id }  >
+            <InfoContainer id={ id } >
                 <InfoWrapper>
                     <InfoRow>
                         <Column1>
@@ -21,6 +21,11 @@ const InfoSection = ({ id, topLine, headline, description }) => {
                                     { description }
                                 </Subtitle>
                             </TextWrapper>
+                            <EventBtn>
+                                <EventBtnLink to="/contact">Contact Us
+                                </EventBtnLink>
+
+                            </EventBtn>
                         </Column1>
                         <Column2>
                             <ImgWrap>
@@ -34,4 +39,5 @@ const InfoSection = ({ id, topLine, headline, description }) => {
     )
 }
 
-export default InfoSection
+export default EventSection
+

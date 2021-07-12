@@ -18,12 +18,9 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="events" onClick={ toggle }>
                         Events
                     </SidebarLink>
-                    <SidebarLink to="signup" onClick={ toggle }>
-                        Sign Up
-                    </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/signin">
+                    <SidebarRoute to="/contact">
                         Contact Us
                     </SidebarRoute>
                 </SideBtnWrap>

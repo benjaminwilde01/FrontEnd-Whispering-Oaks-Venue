@@ -1,9 +1,10 @@
 import styled from 'styled-components'
+import { Link as LinkR } from 'react-router-dom'
 
 
 export const InfoContainer = styled.div`
-    color: #000;
-    background: #fff;
+    color: #fff;
+    background: #000;
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -33,6 +34,32 @@ export const InfoRow = styled.div`
          grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1'` `'col2'` : `'col1 col1' 'col2 col2'` )};
      }
 `
+export const EventBtn = styled.div`
+    display: flex;
+    align-items: center;
+
+`
+
+export const EventBtnLink = styled(LinkR)`
+    /* margin-top: 20px; */
+    border-radius: 50px;
+    background: #01bf71;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: #010606;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover {    
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010606;
+    }
+`
 
 export const Column1 = styled.div`
     margin-bottom: 15px;
@@ -53,7 +80,7 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-    color: #01bf71;
+    color: #000;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -67,8 +94,8 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-
-    color: black;
+    /* color: ${({ lightText }) => (lightText ? '#f7f8a' : '010606')}; */
+    color: white;
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
@@ -80,7 +107,8 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: black;
+    /* color: ${({ darkText }) => (darkText ? '#010606' : '#fff')}; */
+    color: white;
 `
 
 export const ImgWrap = styled.div`

@@ -4,8 +4,11 @@ import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
 import { homeObjOne } from '../components/InfoSection/Data'
+import { homeObjTwo } from '../components/EventSection/Data'
+
 import CarouselContainer from '../components/CarouselContainer'
 import Footer from '../components/footer'
+import EventSection from '../components/EventSection'
 
 
 const Home = () => {
@@ -21,6 +24,7 @@ const Home = () => {
             <Navbar toggle={toggle} />
             <HeroSection />
             <InfoSection { ...homeObjOne }/>
+            <EventSection { ...homeObjTwo }/>
             <CarouselContainer />
             <Footer />
         </>
