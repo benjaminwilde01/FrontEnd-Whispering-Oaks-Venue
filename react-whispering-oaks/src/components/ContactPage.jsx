@@ -24,7 +24,7 @@ class ContactPage extends Component {
             name: '',
             number: 0,
             email: '',
-            date: '',
+            date: 0,
             message: ''
         }
     }
