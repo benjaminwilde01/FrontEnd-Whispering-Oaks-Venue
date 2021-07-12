@@ -46,7 +46,7 @@ class ContactPage extends Component {
     }
 
     render() {
-        const { name, number, email, message } = this.state
+        const { name, number, email, date, message } = this.state
         return (
             <div className="container d-flex">
                 <LinkContainer className="d-flex home"  to="/">
@@ -72,8 +72,8 @@ class ContactPage extends Component {
                     </Form.Group>
 
                     <Form.Group className="form-input" controlId="formBasicDate">
-                        <Form.Label>Dates Interested In</Form.Label>
-                        <Form.Control type="date" placeholder="Enter dates" name="date" value={ date } onChange={ this.changeHandler }/>
+                        <Form.Label>Date</Form.Label>
+                        <Form.Control type="date" placeholder="Enter date" name="date" value={ date } onChange={ this.changeHandler }/>
                     </Form.Group>
 
                     <Form.Group className="form-input" controlId="formBasicMessage">
