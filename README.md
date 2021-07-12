@@ -1,7 +1,5 @@
 # FrontEnd-Whispering-Oaks-Venue
 
-# CRYPTOLOG
-
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
