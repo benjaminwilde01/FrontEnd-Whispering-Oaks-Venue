@@ -24,6 +24,7 @@ class ContactPage extends Component {
             name: '',
             number: 0,
             email: '',
+            date: '',
             message: ''
         }
     }
@@ -68,6 +69,11 @@ class ContactPage extends Component {
                         <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                         </Form.Text>
+                    </Form.Group>
+
+                    <Form.Group className="form-input" controlId="formBasicDate">
+                        <Form.Label>Dates Interested In</Form.Label>
+                        <Form.Control type="date" placeholder="Enter dates" name="date" value={ date } onChange={ this.changeHandler }/>
                     </Form.Group>
 
                     <Form.Group className="form-input" controlId="formBasicMessage">
