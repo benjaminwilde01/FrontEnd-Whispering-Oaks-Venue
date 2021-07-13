@@ -9,7 +9,7 @@ export const Button = styled(Link)`
     white-space: nowrap;
     padding: 14px 48px;
     color: black;
-    font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+    font-size: 16px;
     outline: none;
     border: none;
     cursor: pointer;
