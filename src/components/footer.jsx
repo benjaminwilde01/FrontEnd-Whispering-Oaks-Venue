@@ -8,7 +8,6 @@ const Footer = () => {
         <div className="main-footer">
             <div className="container">
                 <div className="row">
-                   
                     <div className="col">
                         <h4>Whispering Oaks Vineyard</h4>
                         <ul className="list-unstyled">
@@ -17,10 +16,9 @@ const Footer = () => {
                             <li>Redding, CA</li>
                         </ul>
                     </div>
-                    
                 </div>
                 <hr/>
-                <div className="roq">
+                <div className="row">
                     <p className="col-sm">
                         &copy;{new Date().getFullYear()} WHISPERING OAKS INC | All Rights Reserved | Terms Of Service | Privacy
                     </p>

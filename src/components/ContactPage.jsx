@@ -6,15 +6,9 @@ import { Button } from 'react-bootstrap'
 import { Form } from 'react-bootstrap'
 import './contact.css'
 
-// let url = 'http://localhost:5000/api/v1/whispering_oaks/'
 
 let url = 'https://whispering-oaks.herokuapp.com/api/v1/whispering_oaks/'
 
-// if (process.env.NODE_ENV === 'development') {
-//   baseURL = 'http://localhost:5000/api/v1/whispering_oaks/';
-// } else {
-//   baseURL = 'https://whispering-oaks.herokuapp.com/';
-// }
 
 class ContactPage extends Component {
     constructor(props) {

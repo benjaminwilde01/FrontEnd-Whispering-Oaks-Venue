@@ -4,7 +4,6 @@ import { HeroContainer, HeroBg, ImageBg, HeroContent, HeroH1 } from './HeroEleme
 
 const HeroSection = () => {
     
-
     return (
         <HeroContainer>
             <HeroBg>

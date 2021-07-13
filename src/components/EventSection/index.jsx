@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from '../../images/image1.jpeg'
 
-import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img, EventBtn, EventBtnLink } from './EventElements'
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Heading, Subtitle, ImgWrap, Img, EventBtn, EventBtnLink } from './EventElements'
 
-const EventSection = ({ topLine, headline, description, id }) => {
+const EventSection = ({ headline, description, id }) => {
     return (
         <>
             <InfoContainer id={ id } >
@@ -11,9 +11,6 @@ const EventSection = ({ topLine, headline, description, id }) => {
                     <InfoRow>
                         <Column1>
                             <TextWrapper>
-                                <TopLine>
-                                    { topLine }
-                                </TopLine>
                                 <Heading >
                                     { headline }
                                 </Heading>
@@ -24,7 +21,6 @@ const EventSection = ({ topLine, headline, description, id }) => {
                             <EventBtn>
                                 <EventBtnLink to="/contact">Contact Us
                                 </EventBtnLink>
-
                             </EventBtn>
                         </Column1>
                         <Column2>

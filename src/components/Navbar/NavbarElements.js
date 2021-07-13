@@ -22,7 +22,6 @@ export const Nav = styled.nav`
 
 export const NavbarContainer = styled.div`
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     height: 80px;
     z-index: 1;
@@ -104,7 +103,6 @@ export const NavBtn = styled.nav`
 `
 
 export const NavBtnLink = styled(LinkR)`
-    /* margin-top: 20px; */
     border-radius: 50px;
     background: #01bf71;
     white-space: nowrap;

@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from '../../images/interior-venue.jpeg'
 
-import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img } from './InfoElements'
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Heading, Subtitle, ImgWrap, Img } from './InfoElements'
 
-const InfoSection = ({ id, topLine, headline, description }) => {
+const InfoSection = ({ id, headline, description }) => {
     return (
         <>
             <InfoContainer  id={ id }  >
@@ -11,9 +11,6 @@ const InfoSection = ({ id, topLine, headline, description }) => {
                     <InfoRow>
                         <Column1>
                             <TextWrapper>
-                                <TopLine>
-                                    { topLine }
-                                </TopLine>
                                 <Heading >
                                     { headline }
                                 </Heading>

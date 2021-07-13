@@ -21,14 +21,11 @@ const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavLinks to="events">Events</NavLinks>
                         </NavItem>
-                        
-                        
                     </NavMenu>
                     <NavBtn>
                         <NavBtnLink to="/contact">Contact Us
                         </NavBtnLink>
                     </NavBtn>
-
                 </NavbarContainer>
             </Nav>
         </>
