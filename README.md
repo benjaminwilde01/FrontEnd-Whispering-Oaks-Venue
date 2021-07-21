@@ -8,7 +8,7 @@
 * [Launch](#launch)
 
 ## General info
-A full-stack React app that showcases a venue at a winery/vineyard. The purpose is to allow visitors to submit a contact form in order to get more information and request a booking.
+A full-stack React app that showcases a venue at a winery/vineyard. The purpose is to allow visitors to submit a contact form in order to get more information and request a booking. Back-end can be found here [here](https://github.com/benjaminwilde01/BackEnd-Whispering-Oaks-Venue)
 
 ## Technologies
 (Front End)
